@@ -12,7 +12,7 @@ function NewsList ({news}) {
             <ul>
                 {news.map((post)=>
                 <div key={post.id}>
-                    <li><Link to={`/news/${post.id}`}>{post.title}</Link></li>
+                    <li className="es"><Link to={`/news/${post.id}`}>{post.title}</Link></li>
                 </div>
                 )}
             </ul>

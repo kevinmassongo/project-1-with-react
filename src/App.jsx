@@ -579,8 +579,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <main>
       <Navbar/>
+        <main>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/news' element={<News/>}>
