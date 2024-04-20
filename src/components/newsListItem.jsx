@@ -6,7 +6,7 @@ function NewsListItem ({news}) {
     const {id} = useparam
 
     //comportement
-    const post = news.find((post) => post.id = id )
+    const post = news.find((post) => post.id == id )
 
     if(!post){
         <p>L'article que vous avez demandé n'existe pas</p>
